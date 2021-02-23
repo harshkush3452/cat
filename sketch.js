@@ -34,7 +34,8 @@ function draw() {
 }
 function key(){
 if(keyCode===LEFT_ARROW)
-cat.changeAnimation("running",cat_Running);
+cat.addAnimation("running",cat_Running);
+cat.changeAnimation("runnning");
 cat.velocityX=-5;
 
 }
